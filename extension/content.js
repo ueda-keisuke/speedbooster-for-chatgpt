@@ -28,6 +28,8 @@
       if (data.enabled !== undefined) state.enabled = data.enabled;
       if (data.messageLimit !== undefined) state.messageLimit = data.messageLimit;
       state.visibleCount = state.messageLimit;
+      // Update interceptor limit for next conversation load
+      window.dispatchEvent(new CustomEvent('sb-update-limit', { detail: { limit: state.messageLimit } }));
     } catch (e) {
       // Storage not available, use defaults
     }
@@ -47,6 +49,7 @@
       }
       if (changes.messageLimit !== undefined) {
         state.messageLimit = changes.messageLimit.newValue;
+        window.dispatchEvent(new CustomEvent('sb-update-limit', { detail: { limit: state.messageLimit } }));
         state.visibleCount = state.messageLimit;
         applyWindowing();
       }
