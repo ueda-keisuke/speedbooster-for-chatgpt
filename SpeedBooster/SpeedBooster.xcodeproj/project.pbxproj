@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6359BDF2F84A126001AE4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6359BDE2F84A126001AE4FA /* AppDelegate.swift */; };
+		C6359BE32F84A126001AE4FA /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C6359BE12F84A126001AE4FA /* Main.html */; };
+		C6359BE52F84A126001AE4FA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C6359BE42F84A126001AE4FA /* Icon.png */; };
+		C6359BE72F84A126001AE4FA /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C6359BE62F84A126001AE4FA /* Style.css */; };
+		C6359BE92F84A126001AE4FA /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359BE82F84A126001AE4FA /* Script.js */; };
+		C6359BEB2F84A126001AE4FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6359BEA2F84A126001AE4FA /* ViewController.swift */; };
+		C6359BEE2F84A126001AE4FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6359BEC2F84A126001AE4FA /* Main.storyboard */; };
+		C6359BF02F84A127001AE4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6359BEF2F84A127001AE4FA /* Assets.xcassets */; };
+		C6359BF72F84A127001AE4FA /* SpeedBooster Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C6359BF62F84A127001AE4FA /* SpeedBooster Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C6359BFC2F84A127001AE4FA /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6359BFB2F84A127001AE4FA /* SafariWebExtensionHandler.swift */; };
+		C6359C112F84A127001AE4FA /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359C082F84A127001AE4FA /* popup.js */; };
+		C6359C122F84A127001AE4FA /* injector.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359C092F84A127001AE4FA /* injector.js */; };
+		C6359C132F84A127001AE4FA /* selectors.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359C0A2F84A127001AE4FA /* selectors.js */; };
+		C6359C142F84A127001AE4FA /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359C0B2F84A127001AE4FA /* background.js */; };
+		C6359C152F84A127001AE4FA /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C6359C0C2F84A127001AE4FA /* popup.html */; };
+		C6359C162F84A127001AE4FA /* icons in Resources */ = {isa = PBXBuildFile; fileRef = C6359C0D2F84A127001AE4FA /* icons */; };
+			C6359C172F84A127001AE4FA /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C6359C0E2F84A127001AE4FA /* manifest.json */; };
+			C6359C182F84A127001AE4FA /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = C6359C0F2F84A127001AE4FA /* popup.css */; };
+			C6359C192F84A127001AE4FA /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359C102F84A127001AE4FA /* content.js */; };
+			C6359C1A2F84A127001AE4FA /* page-interceptor.js in Resources */ = {isa = PBXBuildFile; fileRef = C6359C1B2F84A127001AE4FA /* page-interceptor.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6359BF82F84A127001AE4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6359BD32F84A126001AE4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6359BF52F84A127001AE4FA;
+			remoteInfo = "SpeedBooster Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6359C032F84A127001AE4FA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C6359BF72F84A127001AE4FA /* SpeedBooster Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C6359BDB2F84A126001AE4FA /* SpeedBooster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedBooster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6359BDE2F84A126001AE4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6359BE22F84A126001AE4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		C6359BE42F84A126001AE4FA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C6359BE62F84A126001AE4FA /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C6359BE82F84A126001AE4FA /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C6359BEA2F84A126001AE4FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6359BED2F84A126001AE4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6359BEF2F84A127001AE4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6359BF12F84A127001AE4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6359BF62F84A127001AE4FA /* SpeedBooster Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpeedBooster Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6359BFB2F84A127001AE4FA /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C6359BFD2F84A127001AE4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6359C082F84A127001AE4FA /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../extension/popup.js; sourceTree = "<group>"; };
+		C6359C092F84A127001AE4FA /* injector.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = injector.js; path = ../../extension/injector.js; sourceTree = "<group>"; };
+		C6359C0A2F84A127001AE4FA /* selectors.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = selectors.js; path = ../../extension/selectors.js; sourceTree = "<group>"; };
+		C6359C0B2F84A127001AE4FA /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../extension/background.js; sourceTree = "<group>"; };
+		C6359C0C2F84A127001AE4FA /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../extension/popup.html; sourceTree = "<group>"; };
+		C6359C0D2F84A127001AE4FA /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../extension/icons; sourceTree = "<group>"; };
+			C6359C0E2F84A127001AE4FA /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
+			C6359C0F2F84A127001AE4FA /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../extension/popup.css; sourceTree = "<group>"; };
+			C6359C102F84A127001AE4FA /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
+			C6359C1B2F84A127001AE4FA /* page-interceptor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "page-interceptor.js"; path = ../../extension/page-interceptor.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6359BD82F84A126001AE4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6359BF32F84A127001AE4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6359BD22F84A126001AE4FA = {
+			isa = PBXGroup;
+			children = (
+				C6359BDD2F84A126001AE4FA /* SpeedBooster */,
+				C6359BFA2F84A127001AE4FA /* SpeedBooster Extension */,
+				C6359BDC2F84A126001AE4FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6359BDC2F84A126001AE4FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6359BDB2F84A126001AE4FA /* SpeedBooster.app */,
+				C6359BF62F84A127001AE4FA /* SpeedBooster Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6359BDD2F84A126001AE4FA /* SpeedBooster */ = {
+			isa = PBXGroup;
+			children = (
+				C6359BDE2F84A126001AE4FA /* AppDelegate.swift */,
+				C6359BEA2F84A126001AE4FA /* ViewController.swift */,
+				C6359BEC2F84A126001AE4FA /* Main.storyboard */,
+				C6359BEF2F84A127001AE4FA /* Assets.xcassets */,
+				C6359BF12F84A127001AE4FA /* Info.plist */,
+				C6359BE02F84A126001AE4FA /* Resources */,
+			);
+			path = SpeedBooster;
+			sourceTree = "<group>";
+		};
+		C6359BE02F84A126001AE4FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6359BE12F84A126001AE4FA /* Main.html */,
+				C6359BE42F84A126001AE4FA /* Icon.png */,
+				C6359BE62F84A126001AE4FA /* Style.css */,
+				C6359BE82F84A126001AE4FA /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6359BFA2F84A127001AE4FA /* SpeedBooster Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C6359C072F84A127001AE4FA /* Resources */,
+				C6359BFB2F84A127001AE4FA /* SafariWebExtensionHandler.swift */,
+				C6359BFD2F84A127001AE4FA /* Info.plist */,
+			);
+			path = "SpeedBooster Extension";
+			sourceTree = "<group>";
+		};
+		C6359C072F84A127001AE4FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6359C082F84A127001AE4FA /* popup.js */,
+				C6359C092F84A127001AE4FA /* injector.js */,
+				C6359C0A2F84A127001AE4FA /* selectors.js */,
+				C6359C0B2F84A127001AE4FA /* background.js */,
+				C6359C0C2F84A127001AE4FA /* popup.html */,
+				C6359C0D2F84A127001AE4FA /* icons */,
+				C6359C0E2F84A127001AE4FA /* manifest.json */,
+				C6359C0F2F84A127001AE4FA /* popup.css */,
+				C6359C102F84A127001AE4FA /* content.js */,
+				C6359C1B2F84A127001AE4FA /* page-interceptor.js */,
+			);
+			name = Resources;
+			path = "SpeedBooster Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6359BDA2F84A126001AE4FA /* SpeedBooster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6359C042F84A127001AE4FA /* Build configuration list for PBXNativeTarget "SpeedBooster" */;
+			buildPhases = (
+				C6359BD72F84A126001AE4FA /* Sources */,
+				C6359BD82F84A126001AE4FA /* Frameworks */,
+				C6359BD92F84A126001AE4FA /* Resources */,
+				C6359C032F84A127001AE4FA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6359BF92F84A127001AE4FA /* PBXTargetDependency */,
+			);
+			name = SpeedBooster;
+			packageProductDependencies = (
+			);
+			productName = SpeedBooster;
+			productReference = C6359BDB2F84A126001AE4FA /* SpeedBooster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6359BF52F84A127001AE4FA /* SpeedBooster Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6359C002F84A127001AE4FA /* Build configuration list for PBXNativeTarget "SpeedBooster Extension" */;
+			buildPhases = (
+				C6359BF22F84A127001AE4FA /* Sources */,
+				C6359BF32F84A127001AE4FA /* Frameworks */,
+				C6359BF42F84A127001AE4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeedBooster Extension";
+			packageProductDependencies = (
+			);
+			productName = "SpeedBooster Extension";
+			productReference = C6359BF62F84A127001AE4FA /* SpeedBooster Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6359BD32F84A126001AE4FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					C6359BDA2F84A126001AE4FA = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					C6359BF52F84A127001AE4FA = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = C6359BD62F84A126001AE4FA /* Build configuration list for PBXProject "SpeedBooster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6359BD22F84A126001AE4FA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6359BDC2F84A126001AE4FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6359BDA2F84A126001AE4FA /* SpeedBooster */,
+				C6359BF52F84A127001AE4FA /* SpeedBooster Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6359BD92F84A126001AE4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6359BE52F84A126001AE4FA /* Icon.png in Resources */,
+				C6359BEE2F84A126001AE4FA /* Main.storyboard in Resources */,
+				C6359BE92F84A126001AE4FA /* Script.js in Resources */,
+				C6359BE32F84A126001AE4FA /* Main.html in Resources */,
+				C6359BF02F84A127001AE4FA /* Assets.xcassets in Resources */,
+				C6359BE72F84A126001AE4FA /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6359BF42F84A127001AE4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6359C142F84A127001AE4FA /* background.js in Resources */,
+				C6359C172F84A127001AE4FA /* manifest.json in Resources */,
+				C6359C152F84A127001AE4FA /* popup.html in Resources */,
+				C6359C122F84A127001AE4FA /* injector.js in Resources */,
+				C6359C182F84A127001AE4FA /* popup.css in Resources */,
+					C6359C162F84A127001AE4FA /* icons in Resources */,
+					C6359C192F84A127001AE4FA /* content.js in Resources */,
+					C6359C1A2F84A127001AE4FA /* page-interceptor.js in Resources */,
+					C6359C112F84A127001AE4FA /* popup.js in Resources */,
+					C6359C132F84A127001AE4FA /* selectors.js in Resources */,
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6359BD72F84A126001AE4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6359BEB2F84A126001AE4FA /* ViewController.swift in Sources */,
+				C6359BDF2F84A126001AE4FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6359BF22F84A127001AE4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6359BFC2F84A127001AE4FA /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6359BF92F84A127001AE4FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6359BF52F84A127001AE4FA /* SpeedBooster Extension */;
+			targetProxy = C6359BF82F84A127001AE4FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6359BE12F84A126001AE4FA /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6359BE22F84A126001AE4FA /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C6359BEC2F84A126001AE4FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6359BED2F84A126001AE4FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6359BFE2F84A127001AE4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6359BFF2F84A127001AE4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C6359C012F84A127001AE4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpeedBooster Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SpeedBooster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keta.speedbooster.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6359C022F84A127001AE4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SpeedBooster Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SpeedBooster Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keta.speedbooster.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C6359C052F84A127001AE4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedBooster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedBooster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keta.speedbooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C6359C062F84A127001AE4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedBooster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpeedBooster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.keta.speedbooster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6359BD62F84A126001AE4FA /* Build configuration list for PBXProject "SpeedBooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6359BFE2F84A127001AE4FA /* Debug */,
+				C6359BFF2F84A127001AE4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6359C002F84A127001AE4FA /* Build configuration list for PBXNativeTarget "SpeedBooster Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6359C012F84A127001AE4FA /* Debug */,
+				C6359C022F84A127001AE4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6359C042F84A127001AE4FA /* Build configuration list for PBXNativeTarget "SpeedBooster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6359C052F84A127001AE4FA /* Debug */,
+				C6359C062F84A127001AE4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6359BD32F84A126001AE4FA /* Project object */;
+}

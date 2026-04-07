@@ -25,6 +25,9 @@
       "run_at": "document_idle"
     }
   ],
+  "web_accessible_resources": [
+    "page-interceptor.js"
+  ],
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
